@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(
+        20deg,
+        black,white
+      ),
+      linear-gradient(
+        -250deg,
+        black, white
+      );
+    background-size: 60px 60px;
+    /* background-repeat: repeat; */
+}
+
+h1 {
+    text-align: center;
+    background-image: radial-gradient(white, black)
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    cursor: pointer;
+    margin: 10px;
+    background-color: rgb(145, 217, 145);
+}
+
+#racer-table {
+    background-color: white;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#racer-table thead {
+    background-color: #100f0f;
+    color: #fffefe;
+    text-align: left;
+}
+
+#racer-table th,
+#racer-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+#racer-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#racer-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
